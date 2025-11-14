@@ -1,0 +1,296 @@
+/* Homepage Specific Styles */
+
+/* Hero Section */
+.hero-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    margin-bottom: 30px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #495057;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.hero-buttons .btn {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+}
+
+.hero-image {
+    max-height: 400px;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+/* Categories Section */
+.categories-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.section-title p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.category-card {
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card .card {
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.category-card:hover .card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.category-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #0d6efd;
+}
+
+/* Featured Auctions Section */
+.featured-auctions-section {
+    padding: 60px 0;
+}
+
+.auction-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.auction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.auction-card-img {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.auction-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.auction-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.auction-price {
+    font-weight: 600;
+    color: #198754;
+}
+
+.card-title a {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: #0d6efd;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    padding: 60px 0;
+}
+
+.how-it-works-item {
+    padding: 20px;
+}
+
+.how-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-icon i {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+.step-number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.how-it-works-item h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Two Column Section */
+.two-column-section {
+    padding: 60px 0;
+}
+
+.auction-list .list-group-item {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.auction-list .list-group-item:hover {
+    transform: translateX(5px);
+    background-color: #f8f9fa;
+}
+
+.auction-list-img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.auction-list-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.auction-list-content {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.auction-list-time {
+    min-width: 100px;
+    text-align: right;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+    color: white;
+    padding: 80px 0;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cta-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-section .btn-outline-primary {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.cta-section .btn-outline-primary:hover {
+    background-color: white;
+    color: #0d6efd;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+    .hero-section {
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+    .hero-image {
+        margin-top: 30px;
+        max-height: 300px;
+    }
+    
+    .how-it-works-item {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.75rem;
+    }
+    
+    .auction-list-time {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .auction-list-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .auction-list-content h5 {
+        font-size: 1rem;
+    }
+}

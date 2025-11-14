@@ -1,0 +1,85 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#FFFFFF"/>
+  
+  <!-- Light orange abstract shapes -->
+  <circle cx="50" cy="50" r="30" fill="#FFE4B5" opacity="0.6"/>
+  <circle cx="550" cy="80" r="25" fill="#FFE4B5" opacity="0.6"/>
+  <circle cx="100" cy="350" r="20" fill="#FFE4B5" opacity="0.6"/>
+  
+  <!-- Left side - "Online Auction" text -->
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#6F42C1">Online</text>
+  <text x="80" y="160" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#6F42C1">Auction</text>
+  
+  <!-- Description text -->
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="start">
+    <tspan x="80" dy="0">Bidsquare is an online auctions site that is quickly becoming</tspan>
+    <tspan x="80" dy="20">an increasingly popular option for buyers and collectors</tspan>
+    <tspan x="80" dy="20">alike. Bidsquare provides a variety of auction-able items</tspan>
+  </text>
+  
+  <!-- Right side - Smartphone -->
+  <rect x="350" y="100" width="180" height="320" rx="20" fill="#FFFFFF" stroke="#DC3545" stroke-width="4"/>
+  <rect x="360" y="120" width="160" height="280" rx="10" fill="#F8F9FA"/>
+  
+  <!-- Hand coming out of phone -->
+  <ellipse cx="450" cy="380" rx="25" ry="15" fill="#FFDBAC"/>
+  <rect x="440" y="360" width="20" height="40" fill="#FFDBAC"/>
+  
+  <!-- BID paddle -->
+  <circle cx="480" cy="370" r="20" fill="#DC3545"/>
+  <text x="480" y="378" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">BID</text>
+  
+  <!-- SOLD tag -->
+  <rect x="500" y="350" width="40" height="20" rx="3" fill="#DC3545"/>
+  <text x="520" y="363" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">SOLD</text>
+  
+  <!-- Gavel above phone -->
+  <rect x="420" y="80" width="6" height="40" fill="#8B4513"/>
+  <rect x="410" y="70" width="26" height="12" rx="3" fill="#8B4513"/>
+  <circle cx="435" cy="60" r="8" fill="#FFD700"/>
+  
+  <!-- Framed painting behind gavel -->
+  <rect x="400" y="60" width="60" height="40" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="405" y="65" width="50" height="30" fill="#87CEEB"/>
+  <circle cx="430" cy="80" r="8" fill="#FFD700"/>
+  
+  <!-- Golden coins falling -->
+  <circle cx="380" cy="200" r="8" fill="#FFD700"/>
+  <circle cx="400" cy="220" r="6" fill="#FFD700"/>
+  <circle cx="360" cy="240" r="7" fill="#FFD700"/>
+  <circle cx="420" cy="180" r="5" fill="#FFD700"/>
+  
+  <!-- Bottom left - Traditional auction scene -->
+  <rect x="50" y="280" width="200" height="100" fill="#F8F9FA" rx="5"/>
+  
+  <!-- Auctioneer at podium -->
+  <rect x="60" y="320" width="15" height="40" fill="#8B4513"/>
+  <rect x="55" y="310" width="25" height="10" fill="#8B4513"/>
+  <circle cx="67" cy="300" r="8" fill="#FFDBAC"/>
+  
+  <!-- Painting on easel -->
+  <rect x="90" y="300" width="30" height="40" fill="#8B4513"/>
+  <rect x="95" y="305" width="20" height="30" fill="#87CEEB"/>
+  
+  <!-- People at table -->
+  <circle cx="120" cy="350" r="6" fill="#FFDBAC"/>
+  <circle cx="140" cy="350" r="6" fill="#FFDBAC"/>
+  <circle cx="160" cy="350" r="6" fill="#FFDBAC"/>
+  
+  <!-- Bottom right - Bidding hands -->
+  <circle cx="350" cy="320" r="15" fill="#DC3545"/>
+  <text x="350" y="328" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BID</text>
+  
+  <circle cx="380" cy="320" r="15" fill="#DC3545"/>
+  <text x="380" y="328" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BID</text>
+  
+  <circle cx="410" cy="320" r="15" fill="#DC3545"/>
+  <text x="410" y="328" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BID</text>
+  
+  <circle cx="440" cy="320" r="15" fill="#DC3545"/>
+  <text x="440" y="328" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BID</text>
+  
+  <circle cx="470" cy="320" r="15" fill="#DC3545"/>
+  <text x="470" y="328" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BID</text>
+</svg>
