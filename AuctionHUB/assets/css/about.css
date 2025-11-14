@@ -1,0 +1,70 @@
+/* About Page Specific Styles */
+
+/* Ensure images are responsive and don't break layout */
+.about-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fallback for missing images */
+.image-fallback {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.image-fallback i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Team member placeholder */
+.team-placeholder {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Auction platform showcase */
+.auction-showcase {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.auction-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.auction-badges .badge {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-image {
+        margin-bottom: 1rem;
+    }
+    
+    .auction-showcase {
+        padding: 1rem;
+    }
+}

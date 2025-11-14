@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Auction Platform -->
+  <rect x="150" y="350" width="500" height="20" rx="5" fill="#6c757d" />
+  
+  <!-- Auction Gavel -->
+  <rect x="400" y="200" width="15" height="150" fill="#495057" />
+  <path d="M350 200 L465 200 L465 170 L350 170 Z" fill="#343a40" />
+  
+  <!-- Auction Items -->
+  <!-- Item 1: Painting -->
+  <rect x="200" y="250" width="80" height="100" rx="2" fill="#ffffff" stroke="#6c757d" stroke-width="2" />
+  <path d="M220 280 C240 260, 260 300, 280 270" stroke="#fd7e14" stroke-width="3" fill="none" />
+  <circle cx="240" cy="290" r="15" fill="#20c997" />
+  
+  <!-- Item 2: Vase -->
+  <path d="M520 350 C520 300, 550 300, 550 250 C550 220, 520 220, 520 250 C520 300, 490 300, 490 350 Z" fill="#0dcaf0" stroke="#0d6efd" stroke-width="2" />
+  
+  <!-- Item 3: Watch -->
+  <circle cx="350" cy="300" r="30" fill="#ffffff" stroke="#6c757d" stroke-width="2" />
+  <circle cx="350" cy="300" r="25" fill="none" stroke="#212529" stroke-width="1" />
+  <line x1="350" y1="280" x2="350" y2="300" stroke="#212529" stroke-width="2" />
+  <line x1="350" y1="300" x2="365" y2="310" stroke="#212529" stroke-width="2" />
+  
+  <!-- Bidding Elements -->
+  <!-- Dollar Signs -->
+  <text x="180" y="200" font-family="Arial" font-size="24" font-weight="bold" fill="#198754">$</text>
+  <text x="480" y="220" font-family="Arial" font-size="18" font-weight="bold" fill="#198754">$</text>
+  <text x="320" y="240" font-family="Arial" font-size="30" font-weight="bold" fill="#198754">$</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="50" fill="#f8f9fa" stroke="#0d6efd" stroke-width="3" stroke-dasharray="5,5" />
+  <circle cx="650" cy="200" r="70" fill="#f8f9fa" stroke="#0d6efd" stroke-width="3" stroke-dasharray="5,5" />
+  
+  <!-- Abstract Bid Lines -->
+  <path d="M100 400 Q 250 200, 400 400" stroke="#6610f2" stroke-width="2" fill="none" stroke-dasharray="10,10" />
+  <path d="M400 400 Q 550 250, 700 400" stroke="#6610f2" stroke-width="2" fill="none" stroke-dasharray="10,10" />
+</svg>
